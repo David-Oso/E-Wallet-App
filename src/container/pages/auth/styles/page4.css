@@ -1,0 +1,98 @@
+.page4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page4Image{
+    width: 100%;
+    height: auto;
+}
+
+.rightSide4 {
+    width: 70%;
+    height: 100vh;
+    margin-left: 20%;
+    margin-top: 30pt;
+}
+    
+.firstReg{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pNumber{
+    background-color: #9474c2;
+    border-radius: 0.2cm;
+    width: 50pt;
+    margin-left: 30pt;
+    color: white;
+}
+
+.reg{
+    justify-items: flex-end;
+}
+
+.secondReg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kyc{
+    font-weight: 700;
+    margin-right: 60%;
+}
+
+.iden{
+    margin-right: 100px;
+}
+
+.page4Input{
+    width: 75%;
+    border-width: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 6vh;
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-left: 50pt;
+    border-color: rgb(128, 128, 128);
+}
+
+.page4Input2{
+    width: 75%;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 6vh;
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-left: 50pt;
+}
+
+.page4LineBreak{
+    background-color: #9474c2;
+    height: 1px;
+    margin-top: 40px;
+}
+
+.secondReg{
+    font-weight: 700;
+    width: 70%;
+    margin-left: 65pt;
+}
+
+.plus4{
+    font-size: 30px;
+    color: gray;
+    margin-top: 7px;
+}
+
+.add4{
+    font-size: 20px;
+}
+
+.next4{
+    margin-left: 330pt;
+    font-weight: 700;
+    font-size: 18px;
+}

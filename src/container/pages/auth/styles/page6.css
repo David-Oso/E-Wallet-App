@@ -1,0 +1,72 @@
+.page6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page6Image{
+    width: 100%;
+    height: auto;
+}
+
+.rightSide6 {
+    width: 60%;
+    height: 90vh;
+    margin-left: 20%;
+    margin-top: 30pt;
+    margin-top: 30%;
+}
+
+.reset6{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.resetPImage{
+    margin-bottom: 40pt;
+}
+
+.enterEmail6{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page6Input{
+    width: 75%;
+    border-width: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 6vh;
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-left: 10pt;
+    border-color: rgb(128, 128, 128);
+}
+
+.page6Input::placeholder{
+    font-weight: 200;
+    font-size: large;
+    margin-right: 5px;
+}
+
+
+.next6{
+    text-align: center;
+    color: white;
+    background-color: #55229e;
+    border-radius: 0.2cm;
+    height: 60px;
+    width: 82%;
+    border-width: 0px;
+    margin-top: 50px;
+    margin-left: 21pt;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.cancel6{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 250pt;
+}

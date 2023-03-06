@@ -1,0 +1,63 @@
+.page3Image{
+    width: 100%;
+    height: auto;
+}
+.page3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.rightSide3 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.continue3 {
+text-align: center;
+color: white;
+background-color: #55229e;
+border-radius: 5px;
+height: 50px;
+width: 100%;
+border-width: 0px;
+margin-top: 10px;
+font-size: 30px;
+font-weight: 500;
+}
+
+#input{
+    width: 70px;
+    height: 60px;
+    border-radius: 0.2cm;
+    margin: 0px 5px;
+    border-color: #e3e3e3;
+    border-width: 2px;
+
+}
+
+.inputs3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10pt 10pt;
+}
+
+#input::placeholder{
+    padding: 30vh 40%;
+    font-size: large;
+    color: #55229e;
+    font-size: 35px;
+}
+
+.enterOtp{
+    font-weight: 600;
+    font-size: 15pt;
+    margin-bottom: 70px;
+}
+
+.inputsContainer{
+    width: 50%;
+}
+
+

@@ -1,0 +1,69 @@
+.page8{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page8Image{
+    width: 100%;
+    height: auto;
+}
+
+.rightSide8 {
+    width: 60%;
+    height: 90vh;
+    margin-left: 20%;
+    margin-top: 30pt;
+    margin-top: 30%;
+}
+
+.enterNewP8{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-right: 7pc;
+}
+
+.enterNewPImage8{
+    margin-bottom: 40pt;
+}
+
+
+.page8Input{
+    width: 75%;
+    border-width: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 6vh;
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-left: 10pt;
+    border-color: rgb(128, 128, 128);
+}
+
+.page8Input::placeholder{
+    font-weight: 200;
+    font-size: large;
+    margin-right: 5px;
+}
+
+
+.reset8{
+    text-align: center;
+    color: white;
+    background-color: #55229e;
+    border-radius: 0.2cm;
+    height: 60px;
+    width: 82%;
+    border-width: 0px;
+    margin-top: 50px;
+    margin-left: 21pt;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.cancel6{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 250pt;
+}

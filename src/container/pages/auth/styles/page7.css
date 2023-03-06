@@ -1,0 +1,71 @@
+.page7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page7Image{
+    width: 100%;
+    height: auto;
+}
+
+.rightSide7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15pc;
+    }
+    .continue7 {
+    text-align: center;
+    color: white;
+    background-color: #55229e;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    border-width: 0px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    }
+
+    
+    #input7{
+        width: 70px;
+        height: 60px;
+        border-radius: 0.2cm;
+        margin: 0px 5px;
+        border-color: #e3e3e3;
+        border-width: 2px;
+    
+    }
+    
+    .inputs7{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 10pt 10pt;
+    }
+    
+    #input7::placeholder{
+        padding: 30vh 40%;
+        font-size: large;
+        color: #55229e;
+        font-size: 35px;
+    }
+    
+    .enterOtpImage7{
+        width: 10pc;
+    }
+
+    .enterOtp7{
+        font-weight: 600;
+        font-size: 15pt;
+        margin-top: 70px;
+    }
+    
+    .inputsContainer7{
+        width: 50%;
+        margin-top: 10pc;
+    }
+    
+    
+    
