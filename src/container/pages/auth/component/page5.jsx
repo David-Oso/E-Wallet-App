@@ -24,8 +24,9 @@ function Page5(){
                 <hr className="page5LineBreak"/>
                 <p className="bvn">BVN</p>
                 <input type="text" className="page5Input" placeholder="BVN"/>
-                <button className="continue5">Continue</button><br /><br />
-                <a href="" className="prev5">Prev</a>
+                <a href=""> <button className="continue5">Continue</button> </a>
+                <br /><br />
+                <a href="." className="prev5">Prev</a>
             </div>
         </div>
     )

@@ -1,9 +1,13 @@
 import image from "../../../../assets/images/svg/login.svg";
 import image2 from "../../../../assets/images/svg/forgotPassword.svg";
 import "../styles/loginPage.css"
+import { useNavigate } from "react-router";
 
 function Login() {
+
+    const navigate = useNavigate();
     return (
+        <div className="mainDiv1">
         <div className="page1">
             <div className="leftSide">
                 <img src={image} alt="login" className="page1Image"/>
@@ -27,9 +31,11 @@ function Login() {
                 <button className="loginButton">Login</button>
                 <div className="sign_up">
                     <p className="acct">Don't have an Account?</p>
-                    <a href="" className="signUp">Sign Up</a>
+                    <a href="/page2" className="signUp">Sign Up</a>
                 </div>
+
             </div>
+        </div>
         </div>
     )
 }

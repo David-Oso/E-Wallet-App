@@ -14,7 +14,7 @@ function Page6(){
                 <p className="enterEmail6">Enter Email Address to reset Password</p>
                 <input type="text" placeholder="Email Address" className="page6Input"/><br />
                 <button className="next6">Next</button><br /><br />
-                <a href="" className="cancel6">Cancel</a>
+                <a href="." className="cancel6">Cancel</a>
             </div>
         </div>
     )

@@ -29,7 +29,7 @@ function Page4(){
                 <input type="text" className="page4Input2" placeholder="Exp.Date                mm/yr"/><br />
                 <input type="text" className="page4Input2" placeholder="CVV"/><br /><br />
 
-                <a href="" className="next4">Next</a>
+                <a href="." className="next4">Next</a>
             </div>
         </div>
     )

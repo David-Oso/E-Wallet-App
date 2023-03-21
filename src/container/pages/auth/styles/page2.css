@@ -1,14 +1,12 @@
-.page1Image{
-    width: 100%;
-    height: auto;
-}
-
-.page1{
+.page2{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-
+.page2Image{
+    width: 100%;
+    height: auto;
+}
 
 .rightSide{
     display: flex;
@@ -17,13 +15,7 @@
     flex-direction: column;
 }
 
-.welcome{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.page1Input{
+.page2Input{
     width: 45%;
     border-width: 2px;
     margin-bottom: 10px;
@@ -33,30 +25,20 @@
     padding-top: 7px;
 }
 
-.log{
-    margin-bottom: 7vh;
-}
-
-.down{
+.signUpDiv2{
     display: flex;
-    width: 45%;
-    justify-content: space-between;
+    align-content: space-evenly;
 }
 
-.rememberMe, .forgotDiv{
-    display: flex;
-    align-items: center;
-    margin-left: -15px;
+.acct2{
+    margin-right: 4em;    
 }
 
-.forgotPassword{
-    height: 12px;
-}
-.forgotPasswordIcon{
-    height: 14px;
+.login2{
+    margin-left: 4em;
 }
 
-.loginButton{
+.signUpButton2{
     display: inline-block;
     background-color: #55229e;
     color: white;
@@ -64,25 +46,11 @@
     border: none;
     border-radius: 8px;
     height: 50px;
-    width: 370px;
+    width: 48%;
     cursor:pointer;
 }
 
-.sign_up{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
- 
-.signUp{
-    margin-top: 10pt;
-}
-
-.acct{
-    color:gray;
-}
-
-.modalDiv1{
+.modalDiv2{
     position: fixed;
     z-index: 1;
     padding-top: 15em;
@@ -93,9 +61,24 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modalContent{
+.modalContent2{
     margin: auto;
     width: 27em;    
     height: 10em;
     background-color: #fff;
+    border-radius: .5cm;
+    display: flex;
+    align-items: center;
 }
+
+.modal2{
+    padding: 1cm;
+    font-size: 400;
+    font-weight: 500;
+}
+
+.modal2Span{
+    margin-left: 5em;
+}
+
+
