@@ -26,7 +26,7 @@ function Page5(){
                 <input type="text" className="page5Input" placeholder="BVN"/>
                 <a href=""> <button className="continue5">Continue</button> </a>
                 <br /><br />
-                <a href="." className="prev5">Prev</a>
+                <a href="/page4" className="prev5">Prev</a>
             </div>
         </div>
     )

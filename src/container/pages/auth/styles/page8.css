@@ -20,11 +20,13 @@
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 5px;
-    margin-right: 7pc;
+    /* margin-right: 7pc; */
+    margin-left: 1em;
 }
 
 .enterNewPImage8{
     margin-bottom: 40pt;
+    margin-left: 5em;
 }
 
 
@@ -36,7 +38,7 @@
     height: 6vh;
     padding-left: 20px;
     padding-top: 7px;
-    margin-left: 10pt;
+    margin-left: 17pt;
     border-color: rgb(128, 128, 128);
 }
 
@@ -67,3 +69,51 @@
     font-size: 20px;
     margin-left: 250pt;
 }
+
+
+.modalDiv8{
+    position: fixed;
+    z-index: 1;
+    padding-top: 15em;
+    left:  0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent8{
+    margin: auto;
+    width: 23em;    
+    height: 10em;
+    background-color: #fff;
+    border-radius: .5cm;
+    margin-left: 56em;
+    margin-top: 5em;
+}
+
+.modal8{
+    /* padding-right: 1cm; */
+    padding-left: 2cm;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 2.5em;
+    margin-left: 1.5em;
+}
+/* .modalSpan8{
+    height: 2em;
+    width: 2em;
+} */
+
+
+.successMark8{
+    height: 1em;
+    width: 1em;
+    padding-left: 0.5em;
+}
+
+.page8ModalLink{
+    margin-left: 13em;
+}
+
+

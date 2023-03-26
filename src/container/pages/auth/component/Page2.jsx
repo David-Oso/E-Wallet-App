@@ -32,8 +32,8 @@ function Page2(){
                     <p className="modal2">
                         Kindly Check your mail to see your OTP number <span className="modal2Span">for Account Verification</span>
                     </p>
-         </div>
-            </div>
+                </div>
+        </div>
 
         </div>
     )

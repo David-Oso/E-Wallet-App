@@ -29,6 +29,7 @@
 .enterEmail6{
     font-size: 20px;
     font-weight: 500;
+    margin-left: 1em;
 }
 
 .page6Input{
@@ -59,7 +60,7 @@
     width: 82%;
     border-width: 0px;
     margin-top: 50px;
-    margin-left: 21pt;
+    margin-left: 15pt;
     font-size: 30px;
     font-weight: 600;
 
@@ -69,4 +70,36 @@
     font-weight: 500;
     font-size: 20px;
     margin-left: 250pt;
+}
+
+
+.modalDiv6{
+    position: fixed;
+    z-index: 1;
+    padding-top: 15em;
+    left:  0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent6{
+    /* margin: auto; */
+    width: 23em;    
+    height: 10em;
+    background-color: #fff;
+    border-radius: .5cm;
+    display: flex;
+    align-items: center;
+    margin-left: 56em;
+    margin-top: 10em;
+
+}
+
+.modal6{
+    padding: 0cm;
+    margin-left: 2.5em;
+    font-size: 400;
+    font-weight: 500;
 }

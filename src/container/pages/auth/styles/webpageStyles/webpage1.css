@@ -1,0 +1,19 @@
+*{
+
+}
+
+body{
+    background-image: url("../../../../../assets//images//svg//dashboardwebpage//background.svg");
+    
+}
+
+.rem4{
+    font-size: 500;
+    font-weight: 500;
+}
+.webPageDiv1{
+    background-color: black;
+    height: 30em;
+    width: 30em;
+    size: 3em;
+}

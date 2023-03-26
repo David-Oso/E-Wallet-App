@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Login from './container/pages/auth/component/login';
 import Page2 from './container/pages/auth/component/Page2';
@@ -8,7 +9,8 @@ import Page6 from './container/pages/auth/component/page6';
 import Page7 from './container/pages/auth/component/page7';
 import Page8 from './container/pages/auth/component/page8';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import WebPage1 from './container/pages/auth/component/webpage/webpage1';
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
       <Route path="/page6" element={<Page6/>}> </Route>
       <Route path="/page7" element={<Page7/>}> </Route>
       <Route path="/page8" element={<Page8/>}> </Route>
+      <Route path='/wepPage1' element={<WebPage1/>}></Route>
       </Routes>
     </Router>
   );

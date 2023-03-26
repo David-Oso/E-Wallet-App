@@ -1,8 +1,12 @@
 import page4Image from  "../../../../assets/images/svg/pages2.svg"
 import "../styles/page4.css"
+// import { useState } from "react"
 
 function Page4(){
+    // const [show, setShow] = useState(false);
+
     return(
+        <div className="mainDiv4">
         <div className="page4">
             <div className="leftSide4" >
                 <img src={page4Image} alt="registrationImage" className="page4Image"/>
@@ -29,8 +33,9 @@ function Page4(){
                 <input type="text" className="page4Input2" placeholder="Exp.Date                mm/yr"/><br />
                 <input type="text" className="page4Input2" placeholder="CVV"/><br /><br />
 
-                <a href="." className="next4">Next</a>
+                <a href="/page5" className="next4">Next</a>
             </div>
+        </div>
         </div>
     )
 }
